@@ -65,8 +65,8 @@ os.environ["USER_AGENT"] = "DeepResearchAI/1.0"
 print("USER_AGENT set to:", os.environ["USER_AGENT"])
 
 # Environment setup - consider moving these to environment variables
-os.environ["TAVILY_API_KEY"] = "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" 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyADtXOCgwP1REFp5gyH6FjIUNH0vxeKjx8" 
+os.environ["TAVILY_API_KEY"] = "Enter_tavily_key" 
+os.environ["GOOGLE_API_KEY"] = "Enter_gemini_api_key" 
 configure(api_key=os.environ["GOOGLE_API_KEY"])
 
 # Initialize the Gemini model with retry logic and reduced parameters
