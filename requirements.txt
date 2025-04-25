@@ -1,0 +1,9 @@
+pydantic
+requests
+urllib3
+langchain-core
+langchain-community
+langchain-google-genai
+langgraph
+faiss-cpu
+google-generativeai
